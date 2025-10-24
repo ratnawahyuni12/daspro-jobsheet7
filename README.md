@@ -30,3 +30,6 @@ b. continue, berfungsi untuk:
 - pada saat kondisi "if" benar maka program akan menampilkan pesan "Nilai tidak valid. Masukkan lagi nilai yang valid!". lalu perintah continue dijalankan dengan artian:
   -> program tidak akan menjalankan perintah-perintah lain di dalam perulangan setelah continue.
   -> langsung lompat ke awal perulangan berikutnya.
+2. Mengapa sintaks i++ dituliskan di akhir perulangan WHILE? Apa yang terjadi jika posisinya dituliskan di awal perulangan WHILE?
+jawab : sintaks i++ dituliskan di akhir perulangan WHILE karena perulangan WHILE akan mengecek kondisi di awal sebelum menjalankan isi perulangan. jadi, nilai i ditingkatkan setelah pernyataan di dalam perulangan dijalankan. posisi i++ di akhir dapat memastikan bahwa nilai pertama (i = 1) juga ikut diproses terlebih dahulu sebelum dinaikkan.
+yang terjadi apabila nilai i++ dituliskan di awal perulangan WHILE yaitu akan melewati nilai awal dan bergeser satu langkah (nilai 1 tidak pernah ditampilkan). posisi ini dapat dilakukan untuk kita yang memang ingin melewati nilai awal tertentu. 
