@@ -33,3 +33,7 @@ b. continue, berfungsi untuk:
 2. Mengapa sintaks i++ dituliskan di akhir perulangan WHILE? Apa yang terjadi jika posisinya dituliskan di awal perulangan WHILE?
 jawab : sintaks i++ dituliskan di akhir perulangan WHILE karena perulangan WHILE akan mengecek kondisi di awal sebelum menjalankan isi perulangan. jadi, nilai i ditingkatkan setelah pernyataan di dalam perulangan dijalankan. posisi i++ di akhir dapat memastikan bahwa nilai pertama (i = 1) juga ikut diproses terlebih dahulu sebelum dinaikkan.
 yang terjadi apabila nilai i++ dituliskan di awal perulangan WHILE yaitu akan melewati nilai awal dan bergeser satu langkah (nilai 1 tidak pernah ditampilkan). posisi ini dapat dilakukan untuk kita yang memang ingin melewati nilai awal tertentu. 
+3. Apabila jumlah mahasiswa yang dimasukkan adalah 19, berapa kali perulangan WHILE akan berjalan?
+jawab : apabila jumlah mahasiswa yang dimasukkan adalah 19, maka perulangan WHILE akan berjalan sebanyak 19 kali jika kondisinya i <= 19.
+4. Modifikasi kode program sehingga apabila terdapat mahasiswa yang mendapat nilai A, program menampilkan pesan tambahan "Bagus, pertahankan nilainya"!
+5. Commit dan push kode program ke Github
