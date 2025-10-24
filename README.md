@@ -49,3 +49,5 @@ if (namaPelanggan.equalsIgnoreCase("batal")) {
 }
 Kondisi berhenti pada perulangan DO-WHILE tersebut adalah saat pengguna mengetik kata “batal” sebagai nama pelanggan.
 Ketika kondisi "if (namaPelanggan.equalsIgnoreCase("batal"))" terpenuhi, program menjalankan perintah "break", yang menyebabkan perulangan berhenti meskipun "while (true)" bernilai benar.
+3. Apa fungsi dari penggunaan nilai true pada kondisi DO-WHILE?
+jawab : penggunaan nilai true pada kondisi DO-WHILE berfungsi untuk membuat perulangan berjalan secara terus-menerus (tanpa batas). perulangan "while (true)" adalah kondisi perulangan yang selalu bernilai benar (true). sehingga, perulangan tidak akan memiliki batas dan secara otomatis dapat berjalan tanpa henti atau infinite loop, kecuali jika diberhentikan secara paksa menggunakan perintah break.
