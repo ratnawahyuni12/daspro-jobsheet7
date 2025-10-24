@@ -1,6 +1,7 @@
 # daspro-jobsheet7
 
 Pertanyaan Percobaan 1
-1. Sebutkan dan tunjukkan masing-masing komponen perulangan FOR pada kode program
-Percobaan 1!
+1. Sebutkan dan tunjukkan masing-masing komponen perulangan FOR pada kode program Percobaan 1!
 jawab : perulangan FOR pada kode program percobaan 1 terletak pada "for (int i = 1; i <= 10; i++)" yang memiliki komponen-komponen berupa inisiasi = "int i = 1" artinya perulangan dimulai dari mahasiswa ke-1, kondisi = "i <= 10>" artinya kondisi ini akan dicek setiap kali perulangan dilakukan hingga i = 10, dan update = "i++" yang terkumpul di blok pernyataan = "{...}" dan dapat diartikan bahwa akan dieksekusi sebanyak 10 kali.
+2. Mengapa variabel tertinggi diinisialisasi 0 dan terendah diinisialisasi 100? Apa yang terjadi jika variabel tertinggi diinisialisasi 100 dan terendah diinisialisasi 0?
+jawab : variabel tertinggi diinisialisasi 0 karena nilai pertama yang dimasukkan pasti lebih besar dari 0 dan menggantikan nilai awal (0), sedangkan nilai terendah diinisialisasi 100 karena nilai pertama yang dimasukkan pasti lebih kecil dari 100 dan menggantikan nilai awal (0). Yang terjadi apabila variabel tertinggi diinisialisasi 100 dan terendah diinisialisasi 0 yaitu hasil perbandingan tidak akan berubah dan program memberikan hasil yang salah (selalu 100(di bagian nilai tertinggi) dan 0(di bagian nilai terendah)).
