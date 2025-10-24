@@ -13,3 +13,20 @@ if (nilai < terendah) {
     terendah = nilai;
 }
 jawab : fungsi dari "if (nilai > tertinggi) { tertinggi = nilai; }" adalah untuk mengecek dan memperbarui nilai tertinggi, sedangkan "if (nilai < terendah) { terendah = nilai; }" berfungsi untuk mengecek dan memperbarui nilai terendah. Kedua potongan kode tersebut bekerja sama di dalam perulangan untuk mencari nilai maksimum dan minimum dari sekumpulan data. Alur kerja potongan kode tersebut berada di dalam perulangan for, jadi prosesnya berulang untuk setiap mahasiswa. Langkah-langkah: (1) Program meminta input nilai kuis mahasiswa. (2) Nilai kuis dimasukkan dan disimpan ke variabel nilai. (3) program membandingkan: a. apakah nilai > tertinggi, jika ya maka perbarui "tertinggi". b. apakah nilai < terendah, jika ya maka perbarui "terendah". (4) Lanjut ke mahasiswa berikutnya. (5) setelah perulangan selesai, variabel "tertinggi" berisi nilai terbesar, dan "terendah" berisi nilai terkecil.
+4. Modifikasi kode program sehingga terdapat perhitungan untuk menentukan berapa mahasiswa yang lulus dan yang tidak lulus berdasarkan batas kelulusan (nilai minimal 60). Tampilkan jumlah mahasiswa lulus dan tidak lulus setelah menampilkan nilai tertinggi dan terendah!
+5. Commit dan push kode program ke Github
+
+Pertanyaan Percobaan 2
+1. Pada potongan kode berikut, tentukan maksud dan kegunaan dari sintaks berikut:
+if (nilai < 0 || nilai > 100) {
+    System.out.println("Nilai tidak valid. Masukkan lagi nilai yang valid!");
+    continue;
+}
+a. nilai < 0 || nilai > 100, berfungsi untuk: 
+- memeriksa apakah nilai yang dimasukkan tidak valid. 
+- tanda || menandakan jika memenuhi hanya salah satu syaratnya yaitu nilai kurang dari 0 atau nilai lebih dari 100 maka akan tetap dieksekusi, berbeda dengan && yang harus memenuhi semua syaratnya. jadi, kondisinya akan benar (true) jika salah satu dari dua perbandingan benar.
+b. continue, berfungsi untuk:
+- melewati (skip) iterasi saat ini (1 iterasi saja) dan melanjutkan ke iterasi berikutnya. setelah continue, program tidak akan menjalankan perintah di bawahnya dalam loop, tetapi akan langsung melanjutkan ke iterasi berikutnya.
+- pada saat kondisi "if" benar maka program akan menampilkan pesan "Nilai tidak valid. Masukkan lagi nilai yang valid!". lalu perintah continue dijalankan dengan artian:
+  -> program tidak akan menjalankan perintah-perintah lain di dalam perulangan setelah continue.
+  -> langsung lompat ke awal perulangan berikutnya.
