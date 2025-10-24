@@ -41,3 +41,11 @@ jawab : apabila jumlah mahasiswa yang dimasukkan adalah 19, maka perulangan WHIL
 Pertanyaan Percobaan 3
 1. Pada penggunaan DO-WHILE ini, apabila nama pelanggan yang dimasukkan pertama kali adalah “batal”, maka berapa kali perulangan dilakukan?
 jawab : apabila nama pelanggan yang dimasukkan pertama kali adalah "batal", maka perulangan do-while tetap dijalankan satu kali. Hal ini karena pada perulangan do-while, blok perintah do selalu dieksekusi minimal satu kali terlebih dahulu sebelum kondisi dicek. Jadi, meskipun kondisi while nantinya bernilai false (karena pengguna langsung mengetik “batal”), perulangan tetap berjalan sekali sebelum dihentikan oleh perintah break.
+2. Sebutkan kondisi berhenti yang digunakan pada perulangan DO-WHILE tersebut!
+jawab : kondisi berhenti yang digunakan pada perulangan DO-WHILE terdapat pada perintah if dan break di dalam perulangan, yaitu:
+if (namaPelanggan.equalsIgnoreCase("batal")) {
+    System.out.println("Transaksi dibatalkan.");
+    break;
+}
+Kondisi berhenti pada perulangan DO-WHILE tersebut adalah saat pengguna mengetik kata “batal” sebagai nama pelanggan.
+Ketika kondisi "if (namaPelanggan.equalsIgnoreCase("batal"))" terpenuhi, program menjalankan perintah "break", yang menyebabkan perulangan berhenti meskipun "while (true)" bernilai benar.
