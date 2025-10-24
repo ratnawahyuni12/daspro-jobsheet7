@@ -37,3 +37,7 @@ yang terjadi apabila nilai i++ dituliskan di awal perulangan WHILE yaitu akan me
 jawab : apabila jumlah mahasiswa yang dimasukkan adalah 19, maka perulangan WHILE akan berjalan sebanyak 19 kali jika kondisinya i <= 19.
 4. Modifikasi kode program sehingga apabila terdapat mahasiswa yang mendapat nilai A, program menampilkan pesan tambahan "Bagus, pertahankan nilainya"!
 5. Commit dan push kode program ke Github
+
+Pertanyaan Percobaan 3
+1. Pada penggunaan DO-WHILE ini, apabila nama pelanggan yang dimasukkan pertama kali adalah “batal”, maka berapa kali perulangan dilakukan?
+jawab : apabila nama pelanggan yang dimasukkan pertama kali adalah "batal", maka perulangan do-while tetap dijalankan satu kali. Hal ini karena pada perulangan do-while, blok perintah do selalu dieksekusi minimal satu kali terlebih dahulu sebelum kondisi dicek. Jadi, meskipun kondisi while nantinya bernilai false (karena pengguna langsung mengetik “batal”), perulangan tetap berjalan sekali sebelum dihentikan oleh perintah break.
